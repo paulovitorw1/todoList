@@ -51,6 +51,7 @@ class SelectLoginOrRegisterView: UIView {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
+    
     private let imageView: UIImageView = {
         let image = UIImageView(image: UIImage(named: "phoneSecurity"))
         image.contentMode = .scaleAspectFit
@@ -125,7 +126,7 @@ class SelectLoginOrRegisterView: UIView {
         return label
     }()
     
-    let labelDescpritonLogin: UILabel = {
+    let loginDescriptionLabel: UILabel = {
         let label = UILabel()
         label.text = "Já tem uma conta?"
         label.font = UIFont.systemFont(ofSize: 14, weight: .ultraLight)
@@ -136,7 +137,7 @@ class SelectLoginOrRegisterView: UIView {
     let buttonLogin: UIButton = {
         let button = UIButton(type: .system)
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setTitle("Log in", for: .normal)
+        button.setTitle("Entrar", for: .normal)
         return button
 
     }()
@@ -171,7 +172,7 @@ class SelectLoginOrRegisterView: UIView {
         groupRegisterStackView.addArrangedSubview(buttonRegisterNow)
 
         addSubview(groupLoginStackView)
-        groupLoginStackView.addArrangedSubview(labelDescpritonLogin)
+        groupLoginStackView.addArrangedSubview(loginDescriptionLabel)
         groupLoginStackView.addArrangedSubview(buttonLogin)
         addSubview(stackViewFooter)
         
@@ -215,6 +216,7 @@ class SelectLoginOrRegisterView: UIView {
     private func buttonRegisterOrLoginFacebookTapped() {
         didTappedRegisterOrLoginFacebook?()
     }
+    
     private func applyConstraints() {
         let imageViewConstraints = [
             imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor),
@@ -247,7 +249,6 @@ class SelectLoginOrRegisterView: UIView {
 
         let footerStackViewConstraints = [
             stackViewFooter.centerXAnchor.constraint(equalTo: centerXAnchor),
-            stackViewFooter.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: DSSpacing.large),
             stackViewFooter.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -DSSpacing.xSmall)
         ]
 

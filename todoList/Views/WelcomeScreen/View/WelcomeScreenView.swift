@@ -42,7 +42,7 @@ final class WelcomeScreenView: UIView {
         let label = UILabel()
         label.text = "Organize, planeje e colabore em tarefas com o Mtodo. Sua vida ocupada merece isso. você pode gerenciar a lista de verificação e seu objetivo."
         label.font = UIFont.systemFont(ofSize: 12, weight: .regular)
-        label.textColor = DSColors.secondaryTextLight.uiColors
+        label.textColor = DSColors.secondaryTextLight
         label.textAlignment = .center
         label.lineBreakMode = .byWordWrapping
         label.numberOfLines = 0
@@ -53,7 +53,7 @@ final class WelcomeScreenView: UIView {
     private let buttonGetStarted: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = DSColors.primary.uiColors
+        button.backgroundColor = DSColors.secondary
         button.setTitle("Iniciar", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 12

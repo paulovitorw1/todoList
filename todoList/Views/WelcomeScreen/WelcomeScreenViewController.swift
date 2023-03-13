@@ -29,7 +29,7 @@ final class WelcomeScreenViewController: UIViewController {
     
     private func setupViewBindings() {
         contentView.buttonGetStartedTapped = { [weak self] in
-            self?.delegate?.didToLogin()
+            self?.delegate?.didToGetStarted()
         }
     }
 }

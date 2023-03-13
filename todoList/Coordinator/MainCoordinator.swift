@@ -17,25 +17,34 @@ class MainCoordinator: CoordinatorProtocol {
     }
     
     func start() {
-        let controller = SelectLoginOrRegisterViewController()
+//        let presenter = CreateAccountPresenter()
+        let controller = WelcomeScreenViewController()
+
         controller.delegate = self
         navigationController.pushViewController(controller, animated: false)
     }
-    
 }
 
 extension MainCoordinator: WelcomeScreenViewControllerDelegate {
-    func didToLogin() {
-//        let controller = WelcomeScreenViewController()
-        print("aqui")
+    func didToGetStarted() {
+       let controller = SelectLoginOrRegisterViewController()
+        controller.delegate = self
+        navigationController.pushViewController(controller, animated: true)
     }
 }
 
 extension MainCoordinator: SelectLoginOrRegisterViewControllerDelegate {
     func didLogin() {
-        print("aqui")
-
+        let presenter = CreateAccountPresenter()
+        let controller = CreateAccountViewController(presenter: presenter)
+        presenter.controller = controller
+        controller.delegate = self
+        navigationController.pushViewController(controller, animated: true)
     }
-    
-    
+}
+
+extension MainCoordinator: CreateAccountViewControllerDelegate {
+    func didToHome() {
+        //TODO: implement to home
+    }
 }

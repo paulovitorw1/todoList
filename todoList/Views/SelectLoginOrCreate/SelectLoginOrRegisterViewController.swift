@@ -31,18 +31,18 @@ class SelectLoginOrRegisterViewController: UIViewController {
     
     private func setupViewBindings() {
         contentView.didTappedCreateAccout = { [weak self] in
-            print("Create Accout")
+            self?.delegate?.didLogin()
         }
         
-        contentView.didTappedLogin = { [weak self] in
+        contentView.didTappedLogin = {
             print("Redirect to login")
         }
         
-        contentView.didTappedRegisterOrLoginGoogle = { [weak self] in
+        contentView.didTappedRegisterOrLoginGoogle = {
             print("Create or login with google")
         }
         
-        contentView.didTappedRegisterOrLoginFacebook = { [weak self] in
+        contentView.didTappedRegisterOrLoginFacebook = {
             print("Create or login with facebook")
         }
     }

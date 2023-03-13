@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60E079E29BCF2B900FBD4F1 /* TogglePasswordVisibilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60E079D29BCF2B900FBD4F1 /* TogglePasswordVisibilityViewModel.swift */; };
+		A62A352329BE8739002693AD /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62A352229BE8739002693AD /* CreateAccountViewModel.swift */; };
 		A6483EF529BA216E00F58419 /* SelectLoginOrRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6483EF429BA216E00F58419 /* SelectLoginOrRegisterView.swift */; };
 		A6483EF729BA231200F58419 /* SelectLoginOrRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6483EF629BA231200F58419 /* SelectLoginOrRegisterViewController.swift */; };
 		A6483EFA29BA238E00F58419 /* SelectLoginOrRegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6483EF929BA238E00F58419 /* SelectLoginOrRegisterProtocol.swift */; };
@@ -16,6 +18,11 @@
 		A66952F429B8181E00B6F486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66952F329B8181E00B6F486 /* Assets.xcassets */; };
 		A66952F729B8181E00B6F486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66952F529B8181E00B6F486 /* LaunchScreen.storyboard */; };
 		A669530129B81C5200B6F486 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A669530029B81C5200B6F486 /* CoordinatorProtocol.swift */; };
+		A6A1C0B229BB90100018AF93 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1C0B129BB90100018AF93 /* CreateAccountViewController.swift */; };
+		A6A1C0B529BB94A30018AF93 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1C0B429BB94A30018AF93 /* CreateAccountView.swift */; };
+		A6A1C0B829BB94CB0018AF93 /* CreateAccountProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1C0B729BB94CB0018AF93 /* CreateAccountProtocol.swift */; };
+		A6A1C0BB29BBC1C70018AF93 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1C0BA29BBC1C70018AF93 /* TextFieldCustom.swift */; };
+		A6A2EB8829BC1A9700BD7146 /* CreateAccountPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A2EB8729BC1A9700BD7146 /* CreateAccountPresenter.swift */; };
 		A6FD1B9F29B8BD8100915177 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FD1B9E29B8BD8100915177 /* MainCoordinator.swift */; };
 		A6FD1BAC29B8FF2800915177 /* DSColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FD1BAB29B8FF2800915177 /* DSColors.swift */; };
 		A6FD1BAF29B911E000915177 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FD1BAE29B911E000915177 /* WelcomeScreenViewController.swift */; };
@@ -25,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60E079D29BCF2B900FBD4F1 /* TogglePasswordVisibilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglePasswordVisibilityViewModel.swift; sourceTree = "<group>"; };
+		A62A352229BE8739002693AD /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
 		A6483EF429BA216E00F58419 /* SelectLoginOrRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginOrRegisterView.swift; sourceTree = "<group>"; };
 		A6483EF629BA231200F58419 /* SelectLoginOrRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginOrRegisterViewController.swift; sourceTree = "<group>"; };
 		A6483EF929BA238E00F58419 /* SelectLoginOrRegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginOrRegisterProtocol.swift; sourceTree = "<group>"; };
@@ -36,6 +45,11 @@
 		A66952F629B8181E00B6F486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A66952F829B8181E00B6F486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A669530029B81C5200B6F486 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		A6A1C0B129BB90100018AF93 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		A6A1C0B429BB94A30018AF93 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		A6A1C0B729BB94CB0018AF93 /* CreateAccountProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountProtocol.swift; sourceTree = "<group>"; };
+		A6A1C0BA29BBC1C70018AF93 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		A6A2EB8729BC1A9700BD7146 /* CreateAccountPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountPresenter.swift; sourceTree = "<group>"; };
 		A6FD1B9E29B8BD8100915177 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		A6FD1BAB29B8FF2800915177 /* DSColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSColors.swift; sourceTree = "<group>"; };
 		A6FD1BAE29B911E000915177 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
@@ -55,13 +69,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60E079B29BCEED800FBD4F1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A60E079D29BCF2B900FBD4F1 /* TogglePasswordVisibilityViewModel.swift */,
+				A62A352229BE8739002693AD /* CreateAccountViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A62A351E29BE53A4002693AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		A6483EF129BA207500F58419 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				A6483EF829BA235800F58419 /* Protocols */,
-				A6483EF329BA20B600F58419 /* View */,
-				A6483EF229BA20A400F58419 /* ViewModel */,
-				A6483EF629BA231200F58419 /* SelectLoginOrRegisterViewController.swift */,
+				A62A351E29BE53A4002693AD /* Login */,
+				A6A1C0B329BB94500018AF93 /* CreateAccount */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -108,6 +136,7 @@
 		A66952E629B8181D00B6F486 /* todoList */ = {
 			isa = PBXGroup;
 			children = (
+				A6A1C0B929BBC19B0018AF93 /* Components */,
 				A6FD1BAA29B8FE7A00915177 /* Utils */,
 				A6FD1BA429B8FA9E00915177 /* Coordinator */,
 				A6FD1BA929B8FBC800915177 /* Services */,
@@ -122,6 +151,53 @@
 				A66952F029B8181D00B6F486 /* todoList.xcdatamodeld */,
 			);
 			path = todoList;
+			sourceTree = "<group>";
+		};
+		A6A1C0AF29BB86650018AF93 /* SelectLoginOrCreate */ = {
+			isa = PBXGroup;
+			children = (
+				A6483EF229BA20A400F58419 /* ViewModel */,
+				A6483EF329BA20B600F58419 /* View */,
+				A6483EF829BA235800F58419 /* Protocols */,
+				A6483EF629BA231200F58419 /* SelectLoginOrRegisterViewController.swift */,
+			);
+			path = SelectLoginOrCreate;
+			sourceTree = "<group>";
+		};
+		A6A1C0B029BB86CB0018AF93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1C0B429BB94A30018AF93 /* CreateAccountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6A1C0B329BB94500018AF93 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				A60E079B29BCEED800FBD4F1 /* ViewModel */,
+				A6A1C0B629BB94B40018AF93 /* Protocols */,
+				A6A1C0B029BB86CB0018AF93 /* View */,
+				A6A1C0B129BB90100018AF93 /* CreateAccountViewController.swift */,
+				A6A2EB8729BC1A9700BD7146 /* CreateAccountPresenter.swift */,
+			);
+			path = CreateAccount;
+			sourceTree = "<group>";
+		};
+		A6A1C0B629BB94B40018AF93 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1C0B729BB94CB0018AF93 /* CreateAccountProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A6A1C0B929BBC19B0018AF93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1C0BA29BBC1C70018AF93 /* TextFieldCustom.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		A6FD1BA429B8FA9E00915177 /* Coordinator */ = {
@@ -151,6 +227,7 @@
 		A6FD1BA729B8FB8600915177 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A6A1C0AF29BB86650018AF93 /* SelectLoginOrCreate */,
 				A6483EF129BA207500F58419 /* Authentication */,
 				A6FD1BAD29B9115500915177 /* WelcomeScreen */,
 			);
@@ -268,6 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A1C0B229BB90100018AF93 /* CreateAccountViewController.swift in Sources */,
 				A6FD1B9F29B8BD8100915177 /* MainCoordinator.swift in Sources */,
 				A66952E829B8181D00B6F486 /* AppDelegate.swift in Sources */,
 				A6483EFA29BA238E00F58419 /* SelectLoginOrRegisterProtocol.swift in Sources */,
@@ -276,11 +354,17 @@
 				A6FD1BB429B916A900915177 /* DSSpacing.swift in Sources */,
 				A6FD1BAF29B911E000915177 /* WelcomeScreenViewController.swift in Sources */,
 				A669530129B81C5200B6F486 /* CoordinatorProtocol.swift in Sources */,
+				A62A352329BE8739002693AD /* CreateAccountViewModel.swift in Sources */,
+				A6A1C0BB29BBC1C70018AF93 /* TextFieldCustom.swift in Sources */,
+				A6A1C0B529BB94A30018AF93 /* CreateAccountView.swift in Sources */,
 				A6FD1BAC29B8FF2800915177 /* DSColors.swift in Sources */,
+				A6A2EB8829BC1A9700BD7146 /* CreateAccountPresenter.swift in Sources */,
 				A66952EA29B8181D00B6F486 /* SceneDelegate.swift in Sources */,
+				A60E079E29BCF2B900FBD4F1 /* TogglePasswordVisibilityViewModel.swift in Sources */,
 				A66952F229B8181D00B6F486 /* todoList.xcdatamodeld in Sources */,
 				A6483EF729BA231200F58419 /* SelectLoginOrRegisterViewController.swift in Sources */,
 				A6483EF529BA216E00F58419 /* SelectLoginOrRegisterView.swift in Sources */,
+				A6A1C0B829BB94CB0018AF93 /* CreateAccountProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

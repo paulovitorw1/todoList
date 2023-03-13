@@ -21,5 +21,5 @@ protocol WelcomeScreenViewControllerProtocol: UIViewController {
 }
 
 protocol WelcomeScreenViewControllerDelegate: AnyObject {
-    func didToLogin()
+    func didToGetStarted()
 }
